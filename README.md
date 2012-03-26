@@ -13,13 +13,16 @@ Want to contribute? Beautiful, you're welcome!
 Desiderata
 -------
 
-Creating an array of Strings (like "Milan", "Rome", etc…) and hightlith on every Chrome Pages these array words.
+1) Creating an array of Strings (like "Milan", "Rome", etc…) and hightlith on every Chrome Pages these array words.
 
     City = new Array("Milano", "Roma", "Napoli", "Bologna", "Venezia");
     for (idx=0; idx<City.length; idx++) {
     	document.body.innerHTML = 
     		document.body.innerHTML.replace(City[idx], "<font color='red'>"+City[idx]+"</font>");
     }
+
+2) Show right click menu only if an array word is selected!
+
 
 ####Screenshots ⤵
 
