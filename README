@@ -1,0 +1,57 @@
+=============
+README UNDER CONSTRUCTION…
+=============
+
+
+Chrome Highlither
+=============
+
+Use this extension to highlith on any pages, definited words, array based.
+
+
+Contributing
+------------
+
+Want to contribute? Beautiful, you're welcome!
+
+
+
+### Classes
+
+If your markup can be translated using a Ruby library, that's examples. Let's look at Markdown:
+
+    markup(:markdown, /md|mkdn?|markdown/) do |content|
+      Markdown.new(content).to_html
+    end
+
+block to run with unformatted markup which should return HTML.
+
+If you need to monkeypatch a RubyGem or something, check out the
+included RDoc example.
+
+Tests should be added in the same manner as described under the
+`Commands` section.
+
+
+Usage
+-----
+
+    require 'github/markup'
+    GitHub::Markup.render('README.markdown', "* One\n* Two")
+
+Or, more realistically:
+
+    require 'github/markup'
+    GitHub::Markup.render(file, File.read(file))
+
+
+Testing
+-------
+
+To run the tests:
+
+    $ rake
+
+To add tests see the `Commands` section earlier in this
+README.
+
