@@ -10,43 +10,17 @@ Contributing
 Want to contribute? Beautiful, you're welcome!
 
 
-
-### Classes
-
-If your markup can be translated using a Ruby library, that's examples. Let's look at Markdown:
-
-    markup(:markdown, /md|mkdn?|markdown/) do |content|
-      Markdown.new(content).to_html
-    end
-
-block to run with unformatted markup which should return HTML.
-
-If you need to monkeypatch a RubyGem or something, check out the
-included RDoc example.
-
-Tests should be added in the same manner as described under the
-`Commands` section.
-
-
-Usage
------
-
-    require 'github/markup'
-    GitHub::Markup.render('README.markdown', "* One\n* Two")
-
-Or, more realistically:
-
-    require 'github/markup'
-    GitHub::Markup.render(file, File.read(file))
-
-
-Testing
+Desiderata
 -------
 
-To run the tests:
+Creating an array of Strings (like "Milan", "Rome", etc…) and hightlith on every Chrome Pages these array words.
 
-    $ rake
+    '
+    City = new Array("Milano", "Roma", "Napoli", "Bologna", "Venezia");
+    for (idx=0; idx<City.length; idx++) {
+    	document.body.innerHTML = 
+    		document.body.innerHTML.replace(City[idx], "<font color='red'>"+City[idx]+"</font>");
+    }
+    '
 
-To add tests see the `Commands` section earlier in this
-README.
 
