@@ -1,8 +1,3 @@
-=============
-README UNDER CONSTRUCTION…
-=============
-
- 
 Chrome Highlither
 ============= 
 
