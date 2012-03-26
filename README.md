@@ -23,4 +23,8 @@ Creating an array of Strings (like "Milan", "Rome", etc…) and hightlith on eve
     }
     '
 
+![Screenshots](https://github.com/paska/Chrome-Highlither/blob/master/_ss_before.png)
+
+![Screenshots](https://github.com/paska/Chrome-Highlither/blob/master/_ss_after.png)
+
 
