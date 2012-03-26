@@ -1,6 +1,6 @@
 
 /*
-
+ 
 // SCRIPT TO SHOW A RIGHT-MENU.
 // ************
 // TODO-> show right menu only on a definited array words!

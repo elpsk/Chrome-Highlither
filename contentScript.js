@@ -2,7 +2,7 @@
 document.body.innerHTML = document.body.innerHTML.replace(/(A.*?\b)/g, "<font color='red'>$1</font>");
 
 
-/*
+/* 
 // TODO -> APPLY A SYLE ON DEFINITED WORDS ON PAGE.
 //      -> SHOW RIGHT CLICK MENU ONLY ON THESE WORDS
 
