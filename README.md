@@ -23,7 +23,12 @@ Creating an array of Strings (like "Milan", "Rome", etc…) and hightlith on eve
 
 ####Screenshots ⤵
 
+This beta versions, hightliths all words that starts with A letter and replace html code with '<font color=red>'.
+
+Before launching this extension:
 ![Screenshots](https://github.com/paska/Chrome-Highlither/raw/master/_ss_before.png)
+
+After script lanuched.
 ![Screenshots](https://github.com/paska/Chrome-Highlither/raw/master/_ss_after.png)
 
 
